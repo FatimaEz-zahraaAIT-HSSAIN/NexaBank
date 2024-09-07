@@ -175,7 +175,7 @@
   }
 
   .profile-name {
-    @apply text-24 font-semibold text-gray-900;
+    @apply text-20 font-semibold text-gray-900;
   }
 
   .profile-email {
