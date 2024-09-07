@@ -18,9 +18,9 @@ const Sidebar = ({user}: SiderbarProps) => {
                 width={34}
                 height={34}
                 alt='NexaBank'
-                className='size-[24px] max-xl:size-14'
+                className='size-[32px] max-xl:size-12'
                 />
-                <h1 className='sidebar-logo'><b>Nexa</b>Bank</h1>
+                <h1 className='sidebar-logo'><b className='text-blue-500'>Nexa</b>Bank</h1>
             </Link>
             {sidebarLinks.map((item) => {
                 const isActive = pathname === item.route || pathname.startsWith(`${item.route}`)
@@ -40,7 +40,9 @@ const Sidebar = ({user}: SiderbarProps) => {
                     </Link>
                 )
             })}
+            USER
         </nav>
+        FOOTER
     </section>
   )
 }

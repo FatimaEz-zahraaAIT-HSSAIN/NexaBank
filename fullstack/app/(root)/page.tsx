@@ -11,9 +11,9 @@ const Home = () => {
         <header className='home-header'>
           <HeaderBox 
             type="greeting"
-            title="Welcome" //needs to be included in the translation
-            user={loggedIn?.firstName || "Guest"} //needs to be included in the translation
-            subtext= "Access and manage your account and transactions efficiently" //needs to be included in the translation
+            title="Welcome" 
+            user={loggedIn?.firstName || "Guest"} 
+            subtext= "Access and manage your account and transactions efficiently" 
           />
           <TotalBalanceBox
             accounts={[]}

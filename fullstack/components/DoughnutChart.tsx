@@ -30,5 +30,3 @@ const DoughnutChart = ({accounts} : DoughnutChartProps) => {
 }
 
 export default DoughnutChart
-
-//minute 48.51
